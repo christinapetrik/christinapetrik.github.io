@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Research | Christina Petrik</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-container">
+
+        <a class="site-name" href="index.html">
+            Christina Petrik
+        </a>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+    </div>
+</nav>
+
+
+<main class="container">
+
+    <h1>Research</h1>
+
+    <p class="subtitle">
+        Working papers, publications, and ongoing projects.
+    </p>
+
+
+    <h2>Working Papers</h2>
+
+
+    <div class="research-item">
+
+        <h3>
+            Title of Working Paper
+        </h3>
+
+        <p class="research-meta">
+            Christina Petrik
+        </p>
+
+        <p>
+            This paper studies [research question].
+            Using [data/method], I show that [main result].
+            The findings have implications for [broader relevance].
+        </p>
+
+        <div class="research-links">
+            <a href="#">PDF</a>
+            <a href="#">Slides</a>
+            <a href="#">Data</a>
+        </div>
+
+    </div>
+
+
+    <div class="research-item">
+
+        <h3>
+            Second Working Paper
+        </h3>
+
+        <p class="research-meta">
+            With Coauthor Name
+        </p>
+
+        <p>
+            Short abstract or two-sentence summary.
+        </p>
+
+        <div class="research-links">
+            <a href="#">PDF</a>
+            <a href="#">Slides</a>
+        </div>
+
+    </div>
+
+
+    <h2>Work in Progress</h2>
+
+    <div class="research-item">
+
+        <h3>
+            Project Title
+        </h3>
+
+        <p class="research-meta">
+            Work in progress
+        </p>
+
+        <p>
+            Brief explanation of the project.
+        </p>
+
+    </div>
+
+
+    <h2>Publications</h2>
+
+    <div class="research-item">
+
+        <h3>
+            Publication Title
+        </h3>
+
+        <p class="research-meta">
+            Journal Name, 2026
+        </p>
+
+        <div class="research-links">
+            <a href="#">Journal</a>
+            <a href="#">PDF</a>
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+    © 2026 Christina Petrik
+</footer>
+
+</body>
+</html>
