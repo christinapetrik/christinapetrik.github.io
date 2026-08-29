@@ -300,15 +300,17 @@ main section:not(.hero) {
    ========================= */
 
 .course {
-    margin-bottom: 40px;
-    padding-bottom: 25px;
+    padding: 8px 0;
     border-bottom: 1px solid var(--border);
 }
 
-.course:last-child {
-    border-bottom: none;
+.course h3 {
+    margin: 0 0 2px;
 }
 
+.course-term {
+    margin: 0;
+}
 
 /* =========================
    CV
