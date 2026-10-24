@@ -386,8 +386,6 @@ footer p {
 }
 
 
-
-
 /* =========================
    MOBILE SCREENS
    ========================= */
@@ -396,40 +394,25 @@ footer p {
 
     .hero {
         display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 25px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 20px;
     }
 
     .hero-photo {
-        margin: 0 auto;
-       order: -1;
+        margin: 0;
+        flex-shrink: 0;
     }
-   
+
     .hero-text {
-        flex: none;
         width: 100%;
-       order:0;
-       
+        flex: none;
     }
 
+    .container {
+        padding-top: 30px;
+    }
 
-}
-
-
-.banner {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    background: var(--accent-light);
-}
-
-.banner img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
 }
 
 /* =========================
