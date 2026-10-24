@@ -386,51 +386,45 @@ footer p {
 }
 
 
+
+
 /* =========================
-   MOBILE LAYOUT
+   MOBILE SCREENS
    ========================= */
 
 @media (max-width: 768px) {
 
-    /* Remove unnecessary space below banner */
-    .container {
-        padding-top: 0;
-    }
-
-    /* Stack portrait and text vertically */
     .hero {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
+        align-items: stretch;
+        gap: 25px;
     }
 
-    /* Portrait overlaps the banner */
-    .hero-photo {
-        order: -1;
-        position: relative;
-        z-index: 2;
-
-        margin: -65px 0 18px 0;
-        align-self: flex-start;
-    }
-
-    /* Portrait size */
-    .hero-photo img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 4px solid var(--background);
-    }
-
-    /* Text stays aligned with the rest of the page */
     .hero-text {
-        order: 0;
-        width: 100%;
         flex: none;
+        width: 100%;
     }
 
+    .hero-photo {
+        margin: 0 auto;
+    }
+}
+
+
+.banner {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background: var(--accent-light);
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
 }
 
 /* =========================
