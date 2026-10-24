@@ -503,21 +503,16 @@ footer p {
 /* =========================
    LARGE SCREENS
    ========================= */
+
+/* Adjust banner on large screens */
 @media (min-width: 1600px) {
-    .banner {
-        max-width: 1400px;
-        width: 100%;
-        margin: 0 auto;
-        height: auto;
-        max-height: none;
-        overflow: visible;
+    .banner img {
+        object-fit: cover;
+        object-position: center;
     }
 
-    .banner img {
-        display: block;
-        width: 100%;
-        height: auto;
-        max-height: none;
-        object-fit: contain;
+    .banner {
+        max-height: 400px;
+        overflow: hidden;
     }
 }
