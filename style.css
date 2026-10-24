@@ -401,14 +401,16 @@ footer p {
         gap: 25px;
     }
 
+    .hero-photo {
+        margin: 0 auto;
+    }
+   
     .hero-text {
         flex: none;
         width: 100%;
     }
 
-    .hero-photo {
-        margin: 0 auto;
-    }
+
 }
 
 
