@@ -499,3 +499,16 @@ footer p {
         width: 100%;
     }
 }
+
+/* Adjust banner on large screens */
+@media (min-width: 1600px) {
+    .banner img {
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .banner {
+        max-height: 400px;
+        overflow: hidden;
+    }
+}
