@@ -386,89 +386,27 @@ footer p {
 }
 
 
-/* =========================
-   MOBILE
-   ========================= */
-
-@media (max-width: 700px) {
-
-    /* Navigation */
-
-    .nav-container {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 12px;
-    }
-
-    .nav-links {
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    .nav-links a {
-        font-size: 0.9rem;
-    }
-
-
-    /* Banner */
-
-    .banner {
-        height: 190px;
-    }
-
-
-    /* Main content */
-
-    .container {
-        padding: 45px 20px 60px;
-    }
-
-
-    /* Hero */
+/* Mobile screens only */
+@media (max-width: 768px) {
 
     .hero {
-        flex-direction: column-reverse;
-        align-items: flex-start;
-        gap: 30px;
-
-        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
 
-    .hero-photo img {
-        width: 175px;
-        height: 175px;
+    .hero-photo {
+        order: -1;
+        position: relative;
+        z-index: 2;
+        margin-top: -80px;
+        align-self: center;
     }
 
-
-    /* Typography */
-
-    h1 {
-        font-size: 2rem;
+    .hero-text {
+        order: 1;
     }
 
-    h2 {
-        font-size: 1.7rem;
-        margin-top: 50px;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    .subtitle {
-        font-size: 1.1rem;
-    }
-
-
-    /* Buttons */
-
-    .buttons {
-        width: 100%;
-    }
-
-    .button {
-        text-align: center;
-    }
 }
 
 
