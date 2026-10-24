@@ -3,7 +3,7 @@
    ========================= */
 
 :root {
-    --background: #b6d1e9; /* #fdfdfb; */
+    --background:  #fdfdfb;
     --text: #222831;
     --muted: #6b7280;
     --accent: #173f5f;
@@ -470,4 +470,6 @@ footer p {
 }
 
 
-
+body {
+    background: #81b9d9 !important;
+}
