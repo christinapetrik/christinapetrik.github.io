@@ -403,11 +403,14 @@ footer p {
 
     .hero-photo {
         margin: 0 auto;
+       order: -1;
     }
    
     .hero-text {
         flex: none;
         width: 100%;
+       order:0;
+       
     }
 
 
