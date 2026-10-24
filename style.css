@@ -468,3 +468,8 @@ footer p {
         height: 420px;
     }
 }
+
+
+body {
+    background: lightpink !important;
+}
